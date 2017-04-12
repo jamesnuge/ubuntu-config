@@ -1,0 +1,69 @@
+ XTerm*background:            #1c1c1c
+ XTerm*foreground:            #626262
+ XTerm*fading:                40
+ XTerm*fadeColor:             #1c1c1c
+ XTerm*cursorColor:           #8a8a8a
+ XTerm*pointerColorBackground:#585858
+ XTerm*pointerColorForeground:#8a8a8a
+! black dark/light
+ XTerm*color0:                #262626
+ XTerm*color8:                #1c1c1c
+! red dark/light
+ XTerm*color1:                #d70000
+ XTerm*color9:                #d75f00
+! green dark/light
+ XTerm*color2:                #5f8700
+ XTerm*color10:               #585858
+! yellow dark/light
+ XTerm*color3:                #af8700
+ XTerm*color11:               #626262
+! blue dark/light
+ XTerm*color4:                #0087ff
+ XTerm*color12:               #808080
+! magenta dark/light
+ XTerm*color5:                #af005f
+ XTerm*color13:               #5f5faf
+! cyan dark/light
+ XTerm*color6:                #00afaf
+ XTerm*color14:               #8a8a8a
+! white dark/light
+ XTerm*color7:                #e4e4e4
+ XTerm*color15:               #ffffd7
+! font
+ XTerm*faceName:              Source Code Pro for Powerline, Source Code Pro Semibold
+ XTerm*faceSize:              12
+
+ UXTerm*background:            #1c1c1c
+ UXTerm*foreground:            #626262
+ UXTerm*fading:                40
+ UXTerm*fadeColor:             #1c1c1c
+ UXTerm*cursorColor:           #8a8a8a
+ UXTerm*pointerColorBackground:#585858
+ UXTerm*pointerColorForeground:#8a8a8a
+! black dark/light
+ UXTerm*color0:                #262626
+ UXTerm*color8:                #1c1c1c
+! red dark/light
+ UXTerm*color1:                #d70000
+ UXTerm*color9:                #d75f00
+! green dark/light
+ UXTerm*color2:                #5f8700
+ UXTerm*color10:               #585858
+! yellow dark/light
+ UXTerm*color3:                #af8700
+ UXTerm*color11:               #626262
+! blue dark/light
+ UXTerm*color4:                #0087ff
+ UXTerm*color12:               #808080
+! magenta dark/light
+ UXTerm*color5:                #af005f
+ UXTerm*color13:               #5f5faf
+! cyan dark/light
+ UXTerm*color6:                #00afaf
+ UXTerm*color14:               #8a8a8a
+! white dark/light
+ UXTerm*color7:                #e4e4e4
+ UXTerm*color15:               #ffffd7
+! font
+ UXTerm*faceName:              Source Code Pro for Powerline, Source Code Pro Semibold
+ UXTerm*faceSize:              12
