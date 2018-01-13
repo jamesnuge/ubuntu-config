@@ -123,15 +123,9 @@ function recompileWeb() {
     cd -
 }
 
-alias copyLocals="~fivebone/web/fs-cmc-5b1.js && grunt copy:locals && cd -"
-
-alias runHemble="~hemble/hemble/npm start"
-
 alias logOff="sudo service lightdm restart"
 
-hash -d proj=~/Projects/
-hash -d hemble=~/Projects/hemble
-hash -d fivebone=~/Projects/fivebone
+hash -d Projects=~/Projects/
 
 #JSAWK for Milestone stuff
 
@@ -179,37 +173,5 @@ function stopwatch(){
     done
 }
 
-### HEMBLE COMMANDS ###
-alias hViewProd='heroku logs -t -n 1000 --source app --app=guarded-thicket-1014'
-alias hViewStaging='heroku logs -t -n 1000 --source app --app=hemble-staging'
-
-alias deployStaging='gulp build-staging && gulp deploy-staging'
-alias deployProd='gulp build-prod && gulp deploy-prod'
-
-alias restartStaging='heroku ps:restart --app=hemble-staging'
-alias restartProd='heroku ps:restart --app=guarded-thicket-1014'
-
-function clearDb() {
-    cd /home/james/Projects/hemble/hemble-server/db/migrations
-    if [ -z "$1" ]
-    then
-        ../bin/migrate down 55
-        ../bin/migrate up
-    else
-        if [ "$1" == "production" ]
-        then
-            echo "Cannot perform operations on production environment"
-            exit -1
-        else
-            ../bin/migrate --env=$1 down 55
-            ../bin/migrate --env=$1 up
-        fi
-    fi
-    cd -
-}
-
 ### AWESOME COMMANDS ###
 alias logout='sudo service lightdm restart'
-
-alias winFox='wine .wine/drive_c/Program\ Files\ \(x86\)/Mozilla\ Firefox/firefox.exe'
-
